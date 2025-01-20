@@ -1,0 +1,12 @@
+{
+    "users":[
+        {
+        "name":"Sairam",
+        "age":19
+    },
+    {
+        "name":"Siddhu",
+        "age":19
+       }   
+    ]
+}
