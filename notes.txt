@@ -1,0 +1,195 @@
+types of functions
+
+1.named function:- function which is having a name to declare and to 
+2.anonymous function:- function which doesnot have a name for declare.
+        -anonmyous function cannot be executed immediately.
+3.function expression:-function declaration is assigned as a value to the variable 
+4.immediate invoke functions expressions:- once the function is created it should be executed immediately.
+            -it can be executed once.
+5.arrow function:- to conise the syntax of normal function.
+syntax:- ()=>{}; similar to anonmyous function
+6.higher order function:
+    -higher order function is a function which accepts another function as value/argument to its parameter.
+7.callback function:
+        -callback function is a function which is passed as value/arguments to another function.
+
+    -closure: closure is a memory created when functions bundled together/functions are nested each other by giving accessibility 
+    to the inner most function to access the variables of outermost function.
+
+    -closure is a memory which gives the accessibility to the variables of the outermost function.
+
+note: current version of javascript: es14.
+
+    es- ECMA script
+    ECMA - european computer manufacturing association
+
+Return statement:- it will return either expression or variable to future use.
+
+implicit return:- returns with the usage of return statement.
+explicit return:- returns with out using return statement.
+
+Arrays:-
+--------------
+- Array can store multiple values within a single varialbe.
+-collections of items/values.
+-array can store homogenous values and heterogenous values.
+
+Syntax: []
+examples:
+
+map:- 
+
+forEach:-
+
+methods in array:-
+********************
+push(),pop(),unshift(),shift(),unshift(),concat(),reverse(),join().
+
+what is an object:-
+*********************
+-object is an entity which is used to store values in the form of key & value pairs
+-object is a physical entity which is is having states(properties) and behaviour(method)
+syntax:- let obj={};
+
+notes:- object based language+OPPs
+
+JSON:- Javascript Object Notation
+-it is used to transmit the data from client to server and server to client.
+syntax:-    {
+        "key":"Value"
+            }
+
+
+extention for js file ".json"
+
+Methods to convert json into javascript
+1.JSON.strigify():- it will convert javascript object into json object.
+2.JSON.parse():- it will convert json object into javascript object.
+
+Web storages
+*****************
+
+1.Local storage:- it is a permanent data storage.
+                - it can store upto 10MB.
+                methods:-
+                    1.localStorage.setItem("key","value")
+                    2.localStorage.getItem("Key")
+                    3.localStorage.removeItem("key")
+                    54.localStorage.clear()
+2.Session storage: -it is a temporary data storage.
+                    -it can store upto 5MB of data.
+
+
+note:- javascript is a synchronous (single threded language) (single task at a time)
+
+Asynchronous:- making javascript to work multiple work simultaneously
+
+1.setTimeout() :- It is a web api used to perform Asynchronous operations in certain timeout.
+    Syntax:- setTimeout(callbackfn, timeout);
+
+2.setInterval():- It is a web api used to perform async operations form 
+    Syntax:- setInterval(callbackfn, timeinterval);
+
+3.promise (es6 feature):- It is an object which represents eventual completion or failures of asynchronous 
+
+            states of promise:-
+            1.Pending:- still on going.
+            2.fulfilled:- successfully completed.
+            3.rejected:-   failures
+
+    Syntax:- new Promise((resolve, reject)=>{});
+
+-for handling the promise we have a instance methods,
+    1.then(): It is used to handle successful data.
+    2.catch():- Used to handle errors.
+    3.finally()
+
+DOM:-document object model
+****************************
+    -dom is a web api used to manipulate the HTML content.
+    -dom is used to add, remove, update the content inside the html document.
+
+methods of dom:-
+****************
+1.document.getElementById(""); :- This method is used to target the html element based on "id" attribute value.
+                                -With id attribute we can select only one element(unique element).
+
+2.document.getElementByClassName(""):- this method is used to target the html element based on "class" attribute 
+                                    -with class attribute we can select multiple element with same class name.
+
+3.document.getElementByTagName(""); :- used to target the elememt based on "TAGNAME".
+
+4.document.getElementByName("");    :- used to target the element based on "name" attribute.
+
+5.document.querySelector("#id");   :- this method selects only one element.
+
+6.document.querySelectorAll(".class");  :- this method selects multiple elements.
+
+.innerText=this is a property 
+.innerHTML= this is a property used to add content along with tag
+Events in javascript:-
+***********************
+-evetns are nothing but an action to perform on html elements.
+
+-in the events we have click events, mouse events, key events.
+click events:-onclick, ondblckick, onsubmit, onchange
+mouse events:- onmouseover, onmouseleave
+key events:- keypress, keydown, keyup.
+
+note:default method of form is GET method.
+
+
+Modules:-
+**********
+
+take array of objects each object should contain emp-id,emp-name,emp-company,emp-salary and emp-address, where emp address
+is again an object which contains emp-city, emp-area. print all those values on the ui in the form of table.
+
+
+libraries: it is a collection of codes.
+            -less set of rules
+            -react.js,jquery,ember etc....
+
+            -these are used to develop small or modrate application like swiggy , zomato etc..
+
+frameworks: it is a collection of libraries.
+            -they have more set of rules.
+            -angular,
+
+ Modeules:
+modules are like import/export code to another js files
+REACT
+**********************************************************************************************************************
+what is reatjs?
+
+-javascript is having libraries and frameworks.
+-react is a javascript library to build rich user interface.
+-react is faster because of "virtual DOM".
+-react follows component based approach.
+-react follows unidirectional data flow.
+-react follows both clients-side rendering and server-side rendering.
+
+Note:
+-react was introduced in 2011 by facebook.(jordan walke)
+-later it was made open-source in 2013.
+-react is free and platform independent.
+
+what is virtal DOM?
+virtual DOM is a virtual representation of ui which is kept in a memory and later synced witnode h real dom by using 
+library called "reactDOM"
+
+what is reconcilation?
+
+the process of updating the reactDOM with the virtual dom is called as reconcilation.
+
+installing of react appliaction:
+
+-install node js
+
+-install react application CLI(command line interface)
+-install 
+
+
+
+
+

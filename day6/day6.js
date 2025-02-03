@@ -22,20 +22,20 @@
 //! arrays
 
 const users=["sairam","siddhu","prasanth","abhishek","snehith"];
-// for(let i=0;i<=users.length;i++){
-//     console.log(users[i]);
-// }
+for(let i=0;i<=users.length;i++){
+    console.log(users[i]);
+}
 
-// const x=users.map((user)=>{
-//     return user;
-// });
-// console.log(x);
+const x=users.map((user)=>{
+    return user;
+});
+console.log(x);
 
-// let y=users.forEach((user)=>{
-//     console.log(user);
-//     return user;
-// });
-// console.log(y); 
+let y=users.forEach((user)=>{
+    console.log(user);
+    return user;
+});
+console.log(y); 
 //! array methods
 
 // users.push("kittu");

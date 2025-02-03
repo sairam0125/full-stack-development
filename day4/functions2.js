@@ -75,9 +75,22 @@
 // let x=add(5,5);
 // console.log(x);
 
-let x=(a,b) => a+b;
-console.log(x(10,30));
+// let x=(a,b) => a+b;
+// console.log(x(10,30));
 
 
-let y=(a,b)=>{return a+b;}
-console.log(y,(3,3));
+// let y=(a,b)=>{return a+b;}
+// console.log(y,(3,3));
+
+//! higher order function
+
+function hof(a){
+    return a;
+}
+let x=hof(function(){return "this is callback function"});
+// console.log(x);
+
+let b=function(){
+    console.log("anonymous function");
+};
+b();

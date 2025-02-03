@@ -38,7 +38,7 @@ function x(){
     console.log(company);
     console.log(sal);
 
-    console.log(a,b);
+    console.log(a+b);
 
 }
 x();

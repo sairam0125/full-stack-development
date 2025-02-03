@@ -8,8 +8,13 @@ types of functions
             -it can be executed once.
 5.arrow function:- to conise the syntax of normal function.
 syntax:- ()=>{}; similar to anonmyous function
-6.higher order function
-7.callback function
+6.higher order function:
+    -higher order function is a function which accepts another function as value/argument to its parameter.
+7.callback function:
+        -callback function is a function which is passed as value/arguments to another function.
+
+    -closure: closure is a memory created when functions bundled together/functions are nested each other by giving accessibility 
+    to the inner most function to access the variables of outermost function.
 
 note: current version of javascript: es14.
 
