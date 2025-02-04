@@ -17,3 +17,9 @@ NOTE: every componenet must be created with capital letters
 
     -two componenets should not have same name in the same directory.
     -to call a component component in side an other component <App/> or <App></App>
+
+proprs:-
+
+props are the properties that are 
+
+Note: rcc-> react class component 
